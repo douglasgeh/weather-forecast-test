@@ -17,6 +17,7 @@
 		225411C32C6421B900231F11 /* WeatherForecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225411C22C6421B900231F11 /* WeatherForecastUITests.swift */; };
 		225411C52C6421B900231F11 /* WeatherForecastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225411C42C6421B900231F11 /* WeatherForecastUITestsLaunchTests.swift */; };
 		225411D92C64255100231F11 /* WeatherForecastURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225411D52C64255100231F11 /* WeatherForecastURLSession.swift */; };
+		2276DB332CA1CFAB0017879F /* WeatherForecastURLSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276DB322CA1CFAB0017879F /* WeatherForecastURLSessionError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		225411C22C6421B900231F11 /* WeatherForecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastUITests.swift; sourceTree = "<group>"; };
 		225411C42C6421B900231F11 /* WeatherForecastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		225411D52C64255100231F11 /* WeatherForecastURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastURLSession.swift; sourceTree = "<group>"; };
+		2276DB322CA1CFAB0017879F /* WeatherForecastURLSessionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastURLSessionError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +143,18 @@
 		225411D42C64255100231F11 /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				2276DB312CA1CFAB0017879F /* Error */,
 				225411D52C64255100231F11 /* WeatherForecastURLSession.swift */,
 			);
 			path = Session;
+			sourceTree = "<group>";
+		};
+		2276DB312CA1CFAB0017879F /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				2276DB322CA1CFAB0017879F /* WeatherForecastURLSessionError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				225411A62C6421A800231F11 /* ViewController.swift in Sources */,
+				2276DB332CA1CFAB0017879F /* WeatherForecastURLSessionError.swift in Sources */,
 				225411D92C64255100231F11 /* WeatherForecastURLSession.swift in Sources */,
 				225411A22C6421A800231F11 /* AppDelegate.swift in Sources */,
 				225411A42C6421A800231F11 /* SceneDelegate.swift in Sources */,
