@@ -3,7 +3,7 @@
 ### Instructions
 - Goal is to fetch weather data from this endpoint `https://api.weatherbit.io/v2.0/forecast/daily?city=San Francisco,CA&key=c316f0de1a0b42f6bc29a8d6e6dd9fa4` and display the results.
     https://www.weatherbit.io/api/weather-forecast-16-day
-- show date max and min temp and the icon for a day in the 16 day forecast
+- Show: Date, Max and Min temp and the icon (optional) for a day in the 16 day forecast
 - To get the weather icon, call the following endpoint, where <icon> is a part of the API response: `https://www.weatherbit.io/static/img/icons/<icon>.png`
 
 
